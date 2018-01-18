@@ -17,9 +17,10 @@
     <input type="submit" value="Ik heb gekozen!">
 </form>
 
-<form>
+<form> //method="GET" of "POST"
 	<input type="text"/>
-	<input type="password"/>
+	<input type="password"/> //elk input element een naam geven: username en password (keys en values) zichtbaar in URL
+	//bij https: niet zomaar zichtbaar met sniffer
 </form>
 
 <ul>
@@ -33,3 +34,6 @@ echo "<li>" . $_GET["kleur"] . "</li>";
 <h2>Na SUBMIT: Check de URL!</h2>
 <p>Waar komen de <em>key</em>- en <em>value</em>-pairs vandaan?</p>
 ```
+geen ``action``: pagina refreshen
+POST: ww in body (niet header)
+zie ook ... van lk.
