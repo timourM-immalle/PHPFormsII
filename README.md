@@ -43,3 +43,15 @@ echo "Hallo " . htmlspecialchars($_POST["dier"]) . "!";
 geen ``action``: pagina refreshen
 POST: ww in body (niet header)
 zie ook ... van lk.
+
+## Post.php
+```HTML
+<form>
+	Naam: <input type="text" name="naam"><br>
+	E-mailadres: <input type="text" name="email"><br>
+	<input type="submit">
+</form>
+
+<?php
+echo "Welkom " . $_POST["naam"];
+echo "Uw e-mailadres is: " . $_POST["email"];
