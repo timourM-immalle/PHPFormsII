@@ -22,6 +22,10 @@
 	<input type="password"/> //elk input element een naam geven: username en password (keys en values) zichtbaar in URL
 	//bij https: niet zomaar zichtbaar met sniffer
 </form>
+<form>
+	<input type="radio" name="dier" value="Kat">Kat</input>
+	<input type="radio" name="dier" value="Hond">Hond</input>
+</form>
 
 <ul>
 <?php
@@ -29,6 +33,7 @@
 echo "<li>" . $_GET["vorm"] . "</li>";
 echo "<li>" . $_GET["kleur"] . "</li>";
 ?>
+
 </ul>
 
 <h2>Na SUBMIT: Check de URL!</h2>
