@@ -28,6 +28,8 @@
 </form>
 
 <ul>
+```
+```PHP
 <?php
 // Vul de juiste key in voor $_GET[...] zodat de gekozen VORM en KLEUR getoond wordt. (anders werkt ie niet)
 echo "<li>" . $_GET["vorm"] . "</li>";
@@ -51,7 +53,8 @@ zie ook ... van lk.
 	E-mailadres: <input type="text" name="email"><br>
 	<input type="submit">
 </form>
-
+```
+```PHP
 <?php
 echo "Welkom " . $_POST["naam"];
 echo "Uw e-mailadres is: " . $_POST["email"];
