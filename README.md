@@ -55,3 +55,4 @@ zie ook ... van lk.
 <?php
 echo "Welkom " . $_POST["naam"];
 echo "Uw e-mailadres is: " . $_POST["email"];
+```
